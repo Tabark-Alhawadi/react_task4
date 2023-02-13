@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import validator from 'validator';
-import "./Register.css";
+
 
 const Register = () => {
   const [fullName, setFullName] = useState('');
